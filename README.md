@@ -1,1 +1,3 @@
-# wonder-pick-pokemon-tcgp
+# Wonder Pick Pokémon TCGP
+
+O **Wonder Pick Pokémon TCGP** é uma aplicação desenvolvida para realizar a análise e o armazenamento de "Wonder Picks" do Pokémon Trading Card Game (TCGP). A ideia principal do projeto é permitir o registro de picks (escolhas) feitas durante partidas de Pokémon TCGP, incluindo dados como a posição inicial e final das escolhas, e o histórico de quando essas escolhas foram feitas.
