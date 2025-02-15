@@ -1,0 +1,6 @@
+@wonder_pick_pokemon_tcgp_HostAddress = http://localhost:5072
+
+GET {{wonder_pick_pokemon_tcgp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

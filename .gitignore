@@ -1,0 +1,61 @@
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## User-specific files for Rider
+.idea/
+
+## User-specific files for Visual Studio for Mac
+.vscode/
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ReleasePublic/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+[Aa]rmeabi-v7a/
+[Aa]rmeabi/
+
+## Uncomment if you have tasks that create project's project's temporary files
+# tmp/
+# temp/
+
+## Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Windows Installer files for Visual Studio
+*.vsix
+
+## Windows Installer files for Rider
+.idea/.idea
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Npm package directories
+node_modules/
+
+## Windows Installer files for .NET Core
+*.cab
+*.msi
+*.msp
+
+## .NET Core
+.vs2019/
+
+## VS2019 config folder
+.vs2019/
