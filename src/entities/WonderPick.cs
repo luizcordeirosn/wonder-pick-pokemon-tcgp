@@ -17,12 +17,12 @@ namespace wonder_pick_pokemon_tcgp.src.entities
 
         [Required]
         [Column(TypeName = "timestamp without time zone")]
-        public DateTime DataCriacao { get; set; } = DateTime.Now;
+        public DateTime DataCriacao { get; set; } = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Unspecified);
 
         public WonderPick(int posicaoInicial, int posicaoFinal) {
             PosicaoInicial = posicaoInicial;
             PosicaoFinal = posicaoFinal;
-            DataCriacao = DateTime.Now;
+            DataCriacao = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Unspecified);
         }
     }
 }

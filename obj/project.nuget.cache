@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UZvfzzHJoYA=",
+  "dgSpecHash": "+U2xM2G0r3k=",
   "success": true,
-  "projectFilePath": "D:\\Área de Trabalho\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj",
+  "projectFilePath": "D:\\Desktop\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luizc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\luizc\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.12\\microsoft.aspnetcore.openapi.8.0.12.nupkg.sha512",

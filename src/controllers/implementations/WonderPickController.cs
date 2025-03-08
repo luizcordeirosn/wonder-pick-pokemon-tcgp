@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 using wonder_pick_pokemon_tcgp.src.dtos;
 using wonder_pick_pokemon_tcgp.src.entities;
@@ -7,11 +8,11 @@ namespace wonder_pick_pokemon_tcgp.src.controllers
 {
     [ApiController]
     [Route("wonder-pick")]
-    public class WonderPickController : ControllerBase
+    public class WonderPickController : ControllerBase, IWonderPickController
     {
-        private readonly WonderPickService _service;
+        private readonly IWonderPickService _service;
 
-        public WonderPickController(WonderPickService service)
+        public WonderPickController(IWonderPickService service)
         {
             _service = service;
         }
@@ -28,6 +29,12 @@ namespace wonder_pick_pokemon_tcgp.src.controllers
         public async Task<IActionResult> GetById(Guid id)
         {
             return Ok(await _service.GetByIdAsync(id));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetLastSevenByPosicaoInicial([FromQuery, Required] int posicaoInicial)
+        {
+            return Ok(await _service.GetLastSevenByPosicaoInicialAsync(posicaoInicial));
         }
     }
 }

@@ -14,8 +14,8 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
 
-builder.Services.AddScoped<WonderPickRepository>();
-builder.Services.AddScoped<WonderPickService>();
+builder.Services.AddScoped<IWonderPickRepository, WonderPickRepository>();
+builder.Services.AddScoped<IWonderPickService, WonderPickService>();
 
 var app = builder.Build();
 

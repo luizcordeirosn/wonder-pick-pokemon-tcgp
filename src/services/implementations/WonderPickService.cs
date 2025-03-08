@@ -5,11 +5,11 @@ using wonder_pick_pokemon_tcgp.src.repositories;
 
 namespace wonder_pick_pokemon_tcgp.src.services
 {
-    public class WonderPickService
+    public class WonderPickService: IWonderPickService
     {
-        private readonly WonderPickRepository _repository;
+        private readonly IWonderPickRepository _repository;
 
-        public WonderPickService(WonderPickRepository repository)
+        public WonderPickService(IWonderPickRepository repository)
         {
             _repository = repository;
         }
@@ -28,6 +28,11 @@ namespace wonder_pick_pokemon_tcgp.src.services
             } else {
                 return await _repository.GetByIdAsync(id);
             }
+        }
+
+        public async Task<List<WonderPick>> GetLastSevenByPosicaoInicialAsync(int posicaoInicial)
+        {
+            return await _repository.GetLastSevenByPosicaoInicialAsync(posicaoInicial);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Área de Trabalho\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj": {}
+    "D:\\Desktop\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj": {}
   },
   "projects": {
-    "D:\\Área de Trabalho\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj": {
+    "D:\\Desktop\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Área de Trabalho\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj",
+        "projectUniqueName": "D:\\Desktop\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj",
         "projectName": "wonder-pick-pokemon-tcgp",
-        "projectPath": "D:\\Área de Trabalho\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj",
+        "projectPath": "D:\\Desktop\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\wonder-pick-pokemon-tcgp.csproj",
         "packagesPath": "C:\\Users\\luizc\\.nuget\\packages\\",
-        "outputPath": "D:\\Área de Trabalho\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\obj\\",
+        "outputPath": "D:\\Desktop\\visual-studio-projects\\wonder-pick-pokemon-tcgp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luizc\\AppData\\Roaming\\NuGet\\NuGet.Config"
